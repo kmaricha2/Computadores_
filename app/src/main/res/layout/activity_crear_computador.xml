@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtmarca"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.kmaricha2.computador.Crear_Computador">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/marca"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/lst_marca"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </Spinner>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtRam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:hint="@string/ram" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txtcolor"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/color"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/lst_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/txttipo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/tipo"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/lst_tipo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/txtsistema"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/sistema"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/lst_sistema"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </Spinner>
+
+
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:elevation="@android:dimen/app_icon_size"
+        android:onClick="guardar"
+        android:text="@string/guardar" />
+
+    <Button
+        android:id="@+id/btnlimpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:elevation="@dimen/fab_margin"
+        android:onClick="limpiar"
+        android:text="@string/borrar" />
+</LinearLayout>
