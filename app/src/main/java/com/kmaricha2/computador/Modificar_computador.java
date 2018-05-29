@@ -1,7 +1,7 @@
 package com.kmaricha2.computador;
 
-public class Modificar_computador {
-    private EditText txtcolor;
+public class  Modificar_computador {
+    private  EditText txtcolor;
     private  EditText txtsistema,txtram;
     private  TextInputLayout icajaColor;
     private TextInputLayout icajaSistema;
@@ -72,7 +72,7 @@ public class Modificar_computador {
         b.putString("sistema",ape);
 
         b.putInt("marca",computadores_spiner.getSelectedItemPosition());
-        b.putInt("foto",fot);
+        b.putInt("fotos",fot);
         i.putExtra("datos",b);
         startActivity(i);
     }

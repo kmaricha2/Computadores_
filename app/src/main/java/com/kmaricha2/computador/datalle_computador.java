@@ -1,7 +1,6 @@
 package com.kmaricha2.computador;
 
-public class datalle_computador {
-    import android.app.Dialog;
+public class datalle_computador {import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
