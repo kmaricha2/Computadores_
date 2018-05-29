@@ -3,7 +3,7 @@ package com.kmaricha2.computador;
 public class Modificar_computador {
     private EditText txtcolor;
     private  EditText txtsistema,txtram;
-    private TextInputLayout icajaColor;
+    private  TextInputLayout icajaColor;
     private TextInputLayout icajaSistema;
     private TextInputLayout icajaram;
     ArrayList<Integer> foto;
